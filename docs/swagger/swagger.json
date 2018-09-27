@@ -1,0 +1,30 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "Blocks api endpoint",
+        "title": "Blocks api",
+        "contact": {
+            "name": "Ivan Santos",
+            "url": "https://ivansantos.me",
+            "email": "pingme@ivansantos.me"
+        },
+        "license": {},
+        "version": "1.0"
+    },
+    "host": "localhost:3000",
+    "basePath": "/",
+    "paths": {
+        "/_health": {
+            "get": {
+                "description": "Health check",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "Health check"
+            }
+        }
+    }
+}

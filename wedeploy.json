@@ -1,0 +1,11 @@
+{
+  "id": "steams",
+  "port": 3002,
+  "env": {
+    "GIN_MODE": "release",
+    "GO_ENV": "production"
+  },
+  "healthCheck": {
+    "url": "localhost:3002/_health"
+  }
+}

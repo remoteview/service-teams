@@ -1,0 +1,11 @@
+{
+  "id": "dbteams",
+  "image": "bitnami/postgresql:10",
+  "volumes": {
+    "voldbteams": "/bitnami"
+  },
+  "env": {
+    "POSTGRESQL_DATABASE": "teams"
+  },
+  "zeroDowntime": false
+}

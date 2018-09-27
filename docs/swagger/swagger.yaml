@@ -1,0 +1,21 @@
+basePath: /
+host: localhost:3000
+info:
+  contact:
+    email: pingme@ivansantos.me
+    name: Ivan Santos
+    url: https://ivansantos.me
+  description: Blocks api endpoint
+  license: {}
+  title: Blocks api
+  version: "1.0"
+paths:
+  /_health:
+    get:
+      consumes:
+      - application/json
+      description: Health check
+      produces:
+      - application/json
+      summary: Health check
+swagger: "2.0"
